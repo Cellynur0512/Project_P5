@@ -1,0 +1,6 @@
+ <!-- <div class="remember-forgot">
+                <label><input type="checkbox">admin</label>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">guru</label>
+            </div> -->
