@@ -1,0 +1,73 @@
+/* Reset CSS untuk menghilangkan margin dan padding default */
+body, h1, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya dasar halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.landing {
+    background-image: url("img/background.jpg"); /* Sesuaikan dengan path gambar Anda */
+    background-size: cover; /* Mencakup seluruh elemen .landing */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar latar belakang */
+    background-position: center; /* Pusatkan gambar latar belakang */
+    text-align: left;
+    padding: 310px; /* Hapus padding untuk mengembalikan tampilan ke asal */
+}
+
+/* Gaya untuk gambar logo */
+img {
+    width: 90px;
+    margin-left: -300px;
+    top: -40px;
+    height: auto;
+}
+
+/* Gaya untuk judul dan teks */
+h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    color: #000;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #000;
+}
+
+p {
+    font-size: 16px;
+    margin-left: -212px;
+    max-width: -40px;
+    margin-top: 10px;
+    color: #000;
+}
+
+/* Gaya untuk tombol Login dan Signup */
+button {
+    padding: 10px 20px;
+    background-color: hsl(212, 13%, 44%);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: hsl(212, 13%, 44%);
+    box-sizing: border-box;
+}

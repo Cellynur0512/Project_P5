@@ -9,14 +9,15 @@
 </head>
 <body>
     <div class="landing">
-        <img src="img/Wikrama.png" alt="">
+        <img src="img/Wikrama.png" alt="SMK Wikrama Bogor">
         <!-- <img src="img/Masjid.png" alt=""> -->
         <p>SMK Wikrama Bogor</p>
 
         <h1>Absensi Sholat Jumat</h1>
-        <h3>"Jumat Barokah, jangan lupa banyak berdoa, banyak sedekah dan banyak tersenyum."</h3>
+        <h3>"Jumat Barokah, jangan lupa banyak berdoa, 
+            banyak sedekah dan banyak tersenyum."</h3>
 
-        <button>Login</button>  <button>Signup</button>
+        <button class="submit" name="">Login</button>  <button>Signup</button>
         
     </div>
 </body>
