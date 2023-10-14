@@ -25,17 +25,18 @@
     font-size: 30px;
     margin-left: 7em;
     padding-right: -2px;
-    margin-top: -8em;
+    margin-top: 1em;
+}
+.loginn{
+    margin-top: -15em;
+    margin-left: 13.5em;
 }
 .btn-login{
-    width: 5em;
-    height: 2em;
+    padding: 10px;
     font-size: 1.5em;
     border-radius: 15px;
     background-color: #F99417;
-    border: none;
-    margin-left: 9em;
-    margin-top: 9em;
+    box-shadow: 0px 4px 20px 0px grey;
 }
 .img-msj{
     margin-left: 55em;
@@ -45,48 +46,267 @@ a{
     text-decoration: none;
     color: black;
 }
+a:hover{
+    color: white;
+    transition: 0.5s;
+}
 /* tampilan login */
 .login{
-    margin-top: -15.5em;
+    margin-top: -30em;
     margin-left: 13em;
     background-color: #D9D9D9;
     width: 29em; 
     padding: 30px;
     border-radius: 15px;
+    box-shadow: 0px 4px 18px 0px grey;
 }
 .text-login{
     color: #F99417; 
     text-align: center;
 }
-.text-hds2{
-    font-size: 30px;
-    margin-left: 7em;
-    padding-right: -2px;
-    margin-top: 0.9em;
-}
 .img-msj2{
     margin-left: 55em;
-    margin-top: -20em;
+    margin-top: 0.1em;
 }
 .btn-login2{
-    width: 5em;
-    height: 2em;
+    padding: 10px;
     font-size: 1.5em;
     border-radius: 15px;
     background-color: #F99417;
     border: none;
-    margin-left: 7em;
-    margin-top: 1em;
+    margin-left: 8em;
+    box-shadow: 0px 4px 20px 0px grey;
+}
+.btn-loginn{
+    margin-top: 2em;
 }
 .input{
-    width: 22em;
-    height: 2.5em;
+    width: 25em;
+    height: 3em;
     border-radius: 10px;
-    margin-left: 6em;
-    margin-top: 1em;
+    margin-left: 5em;
+    margin-top: 2em;
     border: none;
+    box-shadow: 0px 4px 18px 0px grey;
 }
 .input-cek{
-    margin-left: 7em;
+    margin-left: 5em;
+    margin-top: 1.5em;
+}
+/* halaman pembimbing */
+.img-wk2{
+    width: 100px;
+    margin-left: 1em;
+}
+.nav{
+    background-color: #F99417;
+    width: 8em;
+    height: 42em;
+    padding: 0%;
+    margin: 0%;
+}
+.li-nav{
+    list-style-type: none;
+    margin-left: 1em;
+    padding-top: 1em;
+}
+.logout{
+    list-style-type: none;
+    margin-left: 2em;
+    margin-top: 28.5em;
+}
+.link-nav{
+    margin-left: 2px;
+}
+.text-selamat{
+    margin-top: -10em;
+    text-align: center;
+    font-size: 3em;
+}
+.card{
+    text-align: center;
+    margin-top: 3em;
+    background-color: #F99417;
+    padding: 1em 2em 1em 2em ;
+    width: 120px;
+    margin-left: 38em;
+    border-radius: 15px;
+}
+.text-card{
+    font-size: 1.8em;
+    text-align: center;
+}
+.icon-book{
+    font-size: 7em;
+    margin-top: 10px;
+}
+.text-user{
+    margin-left: 48em;
+    font-size: 25px;
+    margin-top: -20em;
+}
+.icon-user{
+    margin-left: 42em;
+    font-size: 2em;
+    margin-top: -20px;
+}
+/* Halaman Admin */
+.text-admin{
+    margin-left: 49em;
+    font-size: 25px;
+    margin-top: -20em;
+}
+/* Halaman Data Siswa */
+.rayon{
+    background-color: #EBEBEB;
+    padding: 8px;
+    width: 5.5em;
+    border-radius: 15px;
+    margin-top: -30em;
+    margin-left: 16em;
+    text-align: center;
+}
+.tgl{
+    background-color: #EBEBEB;
+    padding: 8px;
+    width: 9em;
+    border-radius: 15px;
+    margin-left: 55em;
+    margin-top: -2.5em;
+}
+.tb-datsis{
+    margin-left: 18.5em;
     margin-top: 1em;
+}
+.th{
+    background-color: #EBEBEB;
+    width: 227.5px;
+    height: 40px;
+}
+.tb-th{
+    background-color: #EBEBEB;
+    border-radius: 15px 0px 0px 15px;
+    width: 5em;
+    text-align: center;
+}
+.tb-thh{
+    background-color: #EBEBEB;
+    border-radius: 0px 15px 15px 0px;
+    width: 23.5em;
+    text-align: center;
+}
+.td{
+    background-color: #EBEBEB;
+    margin-top: 2em;
+}
+.tb-datsis2{
+    margin-left: 18.5em;
+    margin-top: 1em;
+}
+.td{
+    background-color: #EBEBEB;
+    width: 227px;
+    height: 40px;
+    text-align: center;
+}
+.tb-td{
+    background-color: #EBEBEB;
+    border-radius: 15px 0px 0px 15px;
+    width: 5em;
+    text-align: center;
+}
+.tb-tdd{
+    text-align: center;
+    background-color: #EBEBEB;
+    border-radius: 0px 15px 15px 0px;
+    width: 23.5em;
+}
+.btn-ubah{
+    width: 5em;
+    height: 2em;
+    border-radius: 15px;
+    background-color: #F99417;
+    border: none;
+}
+/* Halaman Data Guru */
+.tb-datgu{
+    margin-top: -33em;
+    text-align: center;
+    margin-left: 38em;
+    width: 15em;
+    height: 3em;
+}
+.tb-datgu2{
+    margin-top: 1em;
+    text-align: center;
+    margin-left: 38em;
+    width: 15em;
+}
+.tb-rayon{
+    background-color: #EBEBEB;
+    border-radius: 15px;
+    font-size: 25px;
+}
+.tb-dayon{
+    background-color: #EBEBEB;
+    border-radius: 15px 15px 0px 0px;
+    height: 2em;
+    font-size: 25px;
+}
+.tb-dayonn{
+    background-color: #EBEBEB;
+    height: 2em;
+    font-size: 25px;
+}
+.tb-dayonnn{
+    background-color: #EBEBEB;
+    border-radius: 0px 0px 15px 15px;
+    height: 2em;
+    font-size: 25px;
+}
+/* Data Rayon Di Admin */
+.tb-no{
+    background-color: #EBEBEB;
+    border-radius: 15px 0px 0px 0px;
+    width: 5em;
+    height: 3em;
+    text-align: center;
+}
+.tb-edit{
+    background-color: #EBEBEB;
+    border-radius: 0px 15px 0px 0px;
+    text-align: center;
+    width: 9em;
+}
+.tb-aksi{
+    background-color: #EBEBEB;
+    border-radius: 0px 15px 15px 0px;
+    width: 5em;
+    text-align: center;
+    width: 9em;
+}
+.btn-edit{
+    border-radius: 15px;
+    background-color: #F99417;
+    border: none;
+    padding: 7px;
+}
+.tb-no2{
+    background-color: #EBEBEB;
+    border-radius: 0px 0px 0px 15px;
+    width: 5em;
+    height: 3em;
+    text-align: center;
+}
+.tb-edit2{
+    background-color: #EBEBEB;
+    border-radius: 0px 0px 15px 0px;
+    text-align: center;
+    width: 9em;
+}
+.tdd{
+    background-color: #EBEBEB;
+    margin-top: 2em;
+    background-color: #EBEBEB;
+    text-align: center;
 }
