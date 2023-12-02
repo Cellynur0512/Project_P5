@@ -17,13 +17,24 @@
                 <h1 class="text-login"><b>Login</b></h1>
                 <input class="input" type="text" placeholder="Username"><br>
                 <input class="input" type="password" placeholder="Password"><br>
-                <input class="input-cek" type="checkbox">Login sebagai admin<br>
-                <input class="input-cek" type="checkbox">Login sebagai pembimbing<br>
+                <input class="input-cek" type="checkbox" name="cekadmin">Login sebagai admin<br>
+                <input class="input-cek" type="checkbox" name="cekpembimbing">Login sebagai pembimbing<br>
                 <div class="btn-loginn">
-                    <a class="btn-login2" href="">Login</a>
+                    <a class="btn-login2" href="" name="login">Login</a>
                 </div>
             </form>
         </div>
     </div>
+    <?php
+    if(isset($_POST['login'])){
+        if(isset($_POST['cekadmin'])){
+            header("Location: hal_admin.php");
+        } elseif(isset($_POST['cekpembimbing'])){
+            header("Location: hal_pemb.php");
+        } else{
+            echo "<script>alert('Masukkan data anda dengan benar!!!');window.location='login.php';</script>";
+        }
+    }
+    ?>
 </body>
 </html>

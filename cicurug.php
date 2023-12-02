@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Halaman Admin - Cisarua</title>
+    <title>Halaman Admin - Cicurug</title>
 </head>
 <body>
     <div class="hal-pemb">
@@ -20,7 +20,7 @@
                 <a href="index.php">Logout</a></li>
             </ul>
         </nav>
-        <h3 class="rayon">Cisarua</h3>
+        <h3 class="rayon">Cicurug</h3>
         <h3 class="tgl">15-09-2023 <button class="btn-ubah">Ubah</button></h3>
         <table class="tb-datsis">
             <tr>
@@ -34,50 +34,71 @@
         <table class="tb-datsis2">
             <tr>
                 <td class="tb-no">1.</td>
-                <td class="td">Cisarua 1</td>
-                <td class="td">Pak Iqbal</td>
+                <td class="td">Cicurug 1</td>
+                <td class="td">Pak Endang</td>
                 <td class="td">Al-Ikram</td>
                 <td class="tb-edit"><a class="btn-edit" href="#">Edit</a></td>
             </tr>
             <tr>
                 <td class="tdd">2.</td>
-                <td class="td">Cisarua 2</td>
-                <td class="td">Pak Hafidz</td>
+                <td class="td">Cicurug 2</td>
+                <td class="td">Pak Sofyan</td>
                 <td class="td">Al-Ikram</td>
                 <td class="tdd"><a class="btn-edit" href="#">Edit</a></td>
             </tr>
             <tr>
                 <td class="tdd">3.</td>
-                <td class="td">Cisarua 3</td>
-                <td class="td">Pak Sandi</td>
+                <td class="td">Ciscurug 3</td>
+                <td class="td">Pak Cecep</td>
                 <td class="td">Al-Ikram</td>
                 <td class="tdd"><a class="btn-edit" href="#">Edit</a></td>
             </tr>
             <tr>
                 <td class="tdd">4.</td>
-                <td class="td">Cisarua 4</td>
-                <td class="td">Pak Feri</td>
+                <td class="td">Cicurug 4</td>
+                <td class="td">Pak JM</td>
                 <td class="td">Al-Ikram</td>
                 <td class="tdd"><a class="btn-edit" href="#">Edit</a></td>
             </tr>
             <tr>
                 <td class="tdd">5.</td>
-                <td class="td">Cisarua 5</td>
-                <td class="td">Pak Nurdin</td>
+                <td class="td">Cicurug 5</td>
+                <td class="td">Pak Hendri</td>
                 <td class="td">Al-Ikram</td>
                 <td class="tdd"><a class="btn-edit" href="#">Edit</a></td>
             </tr>
             <tr>
                 <td class="tdd">6.</td>
-                <td class="td">Cisarua 6</td>
-                <td class="td">Pak Muslih</td>
+                <td class="td">Cicurug 6</td>
+                <td class="td">Pak Mirza</td>
                 <td class="td">Al-Ikram</td>
                 <td class="tdd"><a class="btn-edit" href="#">Edit</a></td>
             </tr>
             <tr>
-                <td class="tb-no2">7.</td>
-                <td class="td">Cisarua 7</td>
-                <td class="td">Pak Acep</td>
+                <td class="tdd">7.</td>
+                <td class="td">Cicurug 7</td>
+                <td class="td">Pak Nawawi</td>
+                <td class="td">Al-Ikram</td>
+                <td class="tdd"><a class="btn-edit" href="#">Edit</a></td>
+            </tr>
+            <tr>
+                <td class="tdd">8.</td>
+                <td class="td">Cicurug 8</td>
+                <td class="td">Pak Dede</td>
+                <td class="td">Al-Ikram</td>
+                <td class="tdd"><a class="btn-edit" href="#">Edit</a></td>
+            </tr>
+            <tr>
+                <td class="tdd">9.</td>
+                <td class="td">Cicurug 9</td>
+                <td class="td">Pak Arya</td>
+                <td class="td">Al-Ikram</td>
+                <td class="tdd"><a class="btn-edit" href="#">Edit</a></td>
+            </tr>
+            <tr>
+                <td class="tb-no2">10.</td>
+                <td class="td">Cicurug 10</td>
+                <td class="td">Pak Didik</td>
                 <td class="td">Al-Ikram</td>
                 <td class="tb-edit2"><a class="btn-edit" href="#">Edit</a></td>
             </tr>
